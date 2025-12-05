@@ -117,3 +117,32 @@ input, textarea {
   .contact-grid { grid-template-columns:1fr; }
   nav ul { display:none; }
 }
+img {
+  width:350px;
+  height: 150px;
+}
+
+ .contact-container {
+      max-width: 600px;
+      margin: 80px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    h1 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+    .contact-info {
+      font-size: 18px;
+      margin: 15px 0;
+    }
+    .contact-info a {
+      color: #0073e6;
+      text-decoration: none;
+    }
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
